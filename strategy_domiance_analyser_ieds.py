@@ -2,9 +2,6 @@
 # Checks strict AND weak dominance for both players
 # + Iterated Elimination of Dominated Strategies (IEDS)
 
-import sys, io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
 players = ["Prisoner 1", "Prisoner 2"]
 strategies = ["Cooperate", "Defect"]
 payoff_matrix = {
