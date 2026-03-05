@@ -1,4 +1,4 @@
-# Strategy dominance analyser
+# Strategy Dominance analyser
 
 ## Strictly dominated Strategy
 A strategy is strictly dominated if there exists another strategy that gives a strictly higher payoff against every possible opponent strategy.
