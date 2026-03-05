@@ -16,11 +16,11 @@ def display_game(players, strategies, payoff_matrix):
     print("  " + "=" * 60)
     print(f"\n{'':22}", end="")
     for s2 in strategies:
-        print(f"{s2:>16}", end="")
+        print(f"{s2:>16} P2", end="")
     print()
     print("  " + "-" * 60)
     for s1 in strategies:
-        print(f"  {s1:<20}", end="")
+        print(f"P1  {s1:<20}", end="")
         for s2 in strategies:
             payoff = payoff_matrix[(s1, s2)]
             cell = f"({payoff[0]}, {payoff[1]})"
