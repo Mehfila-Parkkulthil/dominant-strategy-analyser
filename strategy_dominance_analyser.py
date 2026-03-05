@@ -1,9 +1,6 @@
 # STRATEGY DOMINANCE ANALYSER - BEGINNER
 # Checks if any strategy is strictly dominated
 
-import sys, io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
 players = ["Prisoner 1", "Prisoner 2"]
 strategies = ["Cooperate", "Defect"]
 payoff_matrix = {
